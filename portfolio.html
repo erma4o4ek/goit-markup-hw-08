@@ -13,15 +13,16 @@
 </head>
 
 <body class="page">
-  <h1 class="visually-hidden">Шапка сайта</h1>
   <!--top line-->
   <header class="page-header">
     <div class="container page-header-container">
-      <nav class="page-nav">
-        <!-- logo -->
-        <a href="./index.html" class="logo"><span class="logo__third">Web</span><span
-            class="logo__primary">Studio</span></a>
-        <!--menu-nav-->
+      <!-- logo -->
+      <a href="./index.html" class="logo"><span class="logo__third">Web</span><span
+          class="logo__primary">Studio</span></a>
+
+      <div class="menu-container" id="menu-container" data-menu>
+        <nav class="page-nav">
+          <!--menu-nav-->
         <ul class="site-navigation list">
           <li class="site-navigation__item"><a href="./index.html" class="site-navigation__link link">Студия</a></li>
           <li class="site-navigation__item"><a href=""
@@ -51,7 +52,14 @@
         </ul>
       </address>
     </div>
-  </header>
+    <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+      <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+        <use class="icon-close" href="./images/icons/sprite.svg#icon-close"></use>
+        <use class="icon-menu" href="./images/icons/sprite.svg#icon-menu"></use>
+      </svg>
+    </button>
+  </div>
+</header>
 
   <main class="portfolio">
     <!--Верхняя строка меню-->
