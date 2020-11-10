@@ -1,0 +1,74 @@
+.solution {
+  padding-top: 118px;
+  padding-bottom: 118px;
+  text-align: center;
+
+  /* height: 600px; */
+  background-image: linear-gradient(
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)),
+  url("../images/solution-section/img/mobile-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+  @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+    background-image: url("../images/solution-section/img/mobile-header@2x.jpg");
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/solution-section/img/tablet-header.jpg");
+  
+  @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+    background-image: url("../images/solution-section/img/tablet-header@2x.jpg");
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/solution-section/img/desktop-header.jpg");
+  
+    @media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+              background-image: url("../images/solution-section/img/desktop-header@2x.jpg");
+          }
+  }
+}
+
+
+
+.solution__title {
+  max-width: 360px ;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.61;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $text-color;
+  text-transform: uppercase;
+
+  @media screen and (min-width:1200px) {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}
+
+.solution__btn-primary {
+  display: inline-block;
+  padding: 10px 32px;
+  
+  border: 1px solid transparent;
+
+  font-weight: 700;
+  line-height: 1.9;
+  text-align: center;
+
+  text-decoration: none;
+  text-align: center;
+}
