@@ -111,10 +111,12 @@ overflow: hidden;
 }
 
 .projects__box:hover .projects__overlay, 
-.projects__item:hover .projects__overlay {
+.projects__item:hover .projects__overlay,
+.projects__box:focus .projects__overlay, 
+.projects__item:focus .projects__overlay {
   transform: translateY(0);
-
 }
+
 
 .projects__overlay {
   position: absolute;

@@ -32,10 +32,13 @@
 .socials__link:hover .socials__icon,
 .socials__link:focus .socials__icon{
     fill: $text-color;
+
+    cursor: pointer;
 }
 
 .socials__icon {
     width: 20px;
     height: 20px;
     fill: $link-color;
+    transition: 250ms $transition-time ;
 }
