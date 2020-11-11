@@ -422,8 +422,8 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
-.projects__link:hover,
-.projects__link:focus {
+.projects__box:hover .projects__overlay,
+.projects__item:hover .projects__overlay {
   transform: translateY(0);
 }
 
