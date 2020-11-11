@@ -267,7 +267,6 @@ input[type="radio"].visually-hidden {
 .socials__link:hover .socials__icon,
 .socials__link:focus .socials__icon {
   fill: #ffffff;
-  cursor: pointer;
 }
 
 .socials__icon {
